@@ -7,6 +7,7 @@ import java.util.List;
 
 public class SecretEntrance {
     public static void main(String[] args) {
+        // Read input to String ArrayList.
         List<String> input = new ArrayList<>();
         try (BufferedReader br = new BufferedReader(new FileReader("src/main/resources/Day1/SecretEntrance/input.txt"))) {
             String line;
